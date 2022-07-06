@@ -1,29 +1,29 @@
 # Giới thiệu:
-Đây là một repository được fork lại từ [https://github.com/truongvi02/v2heroku](https://github.com/truongvi02/v2heroku) với chức năng là tạo ra một server V2Ray trên heroku một cách đơn giản nhất.
+Đây là một repository được fork lại từ [https://github.com/truongvi02/v2heroku](https://github.com/truongvi02/v2heroku) với chức năng là tạo ra một server để vào mạng miễn phí.
 
 Heroku sẽ không khuyến khích việc này nên các bạn cần phải fork lại dự án này để không bị heroku chặn.
 
-Với nhu cầu không quá cao thì heroku chính là giải pháp hoàn hảo cho anh em muốn dùng V2Ray để dùng 4G miễn phí:
+Với nhu cầu không quá cao thì heroku chính là giải pháp hoàn hảo cho anh em muốn dùng 4G miễn phí:
 * 2TB mỗi tháng
 * 550 giờ mỗi tháng (~23 ngày, dĩ nhiên bạn cần ngủ 8 tiếng 1 ngày nên 550 giờ là quá đủ)
 
 ## Tổng quan
 
-Dự án V2Ray WebSocket trên Heroku phải được sử dụng một cách hợp lý nếu không sẽ bị chặn
+Dự án này phải được sử dụng một cách hợp lý nếu không sẽ bị chặn
 
-Sau khi triển khai, mỗi khi khởi động sẽ tải bản V2Ray mới nhất
+Sau khi triển khai, mỗi khi khởi động sẽ tải bản mới nhất
 
 ## Triển khai
 
 ### Bắt đầu
 
- 1. Fork dự án này qua tài khoản GitHub của bạn（trên PC có thể thấy nút Fork trên cùng bên tay phải, ví dụ tài khoản của bạn tên là `example`）
- 2. Sửa lại tên dự án thành tên bất kỳ không nên chứa hai từ khóa `v2ray` và `heroku`（Ví dụ đổi thành `demo`）
- 3. Sửa lại file `README.md`，đường dẫn `corn9500/DuAnNo.1` bằng đường dẫn của bạn（ví dụ `example/demo`）
+ 1. Fork dự án này đến tài khoản GitHub của bạn（trên PC có thể thấy nút Fork trên cùng bên tay phải, ví dụ tài khoản của bạn tên là `example`）
+ 2. Đổi lại tên dự án thành tên bất kỳ（Ví dụ đổi thành `demo`）
+ 3. Chỉnh sửa file `README.md`，đường dẫn `convitkiuquatquat/convitthu1` bằng đường dẫn của bạn（ví dụ `example/demo`）
 
-> [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/corn9500/DuAnNo.1)
+> [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/convitkiuquatquat/convitthu1)
 
- 4. Quay lại trang chủ của dự án，bấm vào liên kết để triển khai V2Ray
+ 4. Quay lại trang chủ của dự án，bấm vào liên kết để triển khai
 
 ### Đối số
 
